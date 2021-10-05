@@ -1,17 +1,26 @@
 export const SkillsData = [
     {
         type: 'FrontEnd',
-        list: [{
-            name: 'ReactJS',
-            icon: <i class="devicon-react-original-wordmark colored"></i>
+        list: [
+        {
+            name: 'HTML',
+            icon: <i class="devicon-html5-plain-wordmark colored"></i>
+        },
+        {
+            name: 'CSS',
+            icon: <i class="devicon-css3-plain-wordmark"></i>
         },
         {
             name: 'JavaScript',
             icon: <i class="devicon-javascript-plain colored"></i>
         },
         {
-            name: 'HTML',
-            icon: <i class="devicon-html5-plain-wordmark colored"></i>
+            name: 'JQuery',
+            icon: <i class="devicon-jquery-plain-wordmark colored"></i>
+        },
+        {
+            name: 'ReactJS',
+            icon: <i class="devicon-react-original colored"></i>
         },
         ]
     },
@@ -35,6 +44,26 @@ export const SkillsData = [
                  name: "mongoDB",
                  icon:<i class="devicon-mongodb-plain-wordmark colored"></i>
              }
+        ]
+
+    },
+      {
+        type: 'Programming Language',
+         list: [
+             {
+            name: 'C',
+            icon: <i class="devicon-c-plain-wordmark colored"></i>
+             },
+             {
+                 name: "C++",
+                 icon:<i class="devicon-cplusplus-plain-wordmark colored"></i>
+             },
+             {
+                 name: "Python",
+                 icon:<i class="devicon-python-plain-wordmark colored"></i>
+             }
+
+              
         ]
 
     }

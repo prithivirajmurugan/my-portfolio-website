@@ -1,6 +1,7 @@
 import React from 'react'
 import Separator from '../../common/seperator/separator';
 import SocialContact from '../../common/social-contact/socialContact';
+import ContactForm from './contact-form/ContactForm';
 import './contact.css';
 
 function Contact() {
@@ -11,6 +12,7 @@ function Contact() {
             <div className="contact-container">
                 <div className="contact-left">
                     <p>Want to get in touch contact me on any of the platform</p>
+                    <ContactForm />
                     <SocialContact/>
                 </div>
                 <div className="download">
