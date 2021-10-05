@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ContactForm.css';
 
 function ContactForm() {
+    const [formData, setFormData] = useState(null);
     return (
-        <form name="contact" method ="POST" data-netlify-recaptcha="true" data-netlify="true">
+        <form name="contact" method ="POST" data-netlify-recaptcha="true" netlify>
              <input type="text" name="name" placeholder="Your name" className="contact-form-input" />
             <input type="email" name="email" placeholder="Your email address" className="contact-form-input" />
             <textarea rows="5" cols="30" name="description" placeholder="Your message" className="contact-form-input"></textarea>
