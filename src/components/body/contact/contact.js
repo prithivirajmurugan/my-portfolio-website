@@ -8,7 +8,7 @@ function Contact() {
         <div className='contact'>
             <Separator />
             <label className="section-title">Contact</label>
-            <div className="contact-containter">
+            <div className="contact-container">
                 <div className="contact-left">
                     <p>Want to get in touch contact me on any of the platform</p>
                     <SocialContact/>

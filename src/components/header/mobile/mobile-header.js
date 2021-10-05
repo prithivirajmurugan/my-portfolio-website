@@ -9,7 +9,7 @@ function MobileHeader({ isOpen,setIsOpen }) {
             </div>
             <div className="mobile-options">
                 <div className="mobile-option">
-                <a href="#project">
+                <a href="#projects">
                     <i class="fas fa-project-diagram option-icon"></i>Projects
                 </a>
 

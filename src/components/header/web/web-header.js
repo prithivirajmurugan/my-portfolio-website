@@ -5,7 +5,7 @@ function WebHeader() {
     return (
         <div className="web">
             <div className="web-option">
-                <a href="#project">
+                <a href="#projects">
                     <i class="fas fa-project-diagram option-icon"></i>Projects
                 </a>
 
