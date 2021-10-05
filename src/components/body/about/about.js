@@ -12,7 +12,8 @@ function About() {
         <div className="about-photo">
           <img
             src={require("../../../assets/Software engineer-amico.png").default}
-            className="img-style"
+                      className="img-style"
+                      alt=""
           />
         </div>
       </div>
