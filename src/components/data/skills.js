@@ -29,6 +29,10 @@ export const SkillsData = [
         list: [{
             name: 'NodeJS',
             icon: <i class="devicon-nodejs-plain-wordmark colored"></i>
+        },
+		{
+            name: 'Jest',
+            icon: <i class="devicon-jest-plain colored"></i>
         }
         ]
 
