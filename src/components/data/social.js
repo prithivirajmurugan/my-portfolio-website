@@ -1,12 +1,17 @@
 export const SocialData = [
-    {
-        platform: "instagram",
-        link: "www.instagram.com",
-        icon:require('../../assets/instagram.png').default
-    },
-    {
-        platform: "github",
-        link: "www.github.com",
-        icon:require('../../assets/github.png').default
-    }
-]
+  {
+    platform: "gmail",
+    link: "mailto:prithivirajmurugan1996@gmail.com",
+    icon: require("../../assets/gmail.png").default,
+  },
+  {
+    platform: "github",
+    link: "https://github.com/prithivirajmurugan",
+    icon: require("../../assets/github.png").default,
+  },
+  {
+    platform: "LinkedIn",
+    link: "https://www.linkedin.com/in/prithiviraj-murugan-8b9517133",
+    icon: require("../../assets/linkedin.png").default,
+  },
+];

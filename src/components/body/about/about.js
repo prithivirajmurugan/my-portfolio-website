@@ -8,9 +8,11 @@ function About() {
         <div className="about-info">
           Hello There 👋, I am <br />
           <span className="info-name">Prithiviraj</span>.<br />
-          Software Engineer , who knows working in Javascript Framework like
-          NodeJS (express), ReactJS, React-Native. Also has working experience
-          in Embedded system.
+          Software Engineer , who knows like to work in Javascript Framework like
+          NodeJS (express), ReactJS, React-Native.<br /> <br />
+          Proficient in MERN stack app
+          development,<br /><br />
+          Also has working experience in Embedded system.
         </div>
         <div className="about-photo">
           <img

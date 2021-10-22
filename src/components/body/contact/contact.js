@@ -13,12 +13,12 @@ function Contact() {
           <p>Want to get in touch contact me on any of the platform</p>
           <SocialContact />
         </div>
-        <div className="download">
+        {/* <div className="download">
           <a download href={require("../../../assets/bosch-logo.png").default}>
             <i class="fas fa-file-download download-icon"></i>
             Download Resume
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
